@@ -1,0 +1,130 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #0C2D2D;
+}
+
+nav {
+	font-family: 'Tenor Sans', sans-serif;
+	color: #F9FFFF;
+	background-color: #072022;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+h2 {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: 'Tenor Sans', sans-serif;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+}
+
+form {
+	font-family: 'Montserrat', sans-serif;;
+}
+
+footer {
+/*	background-color: #0A6868;*/
+	background-color: #DDE8E8;
+	font-size: 0.75em;
+}
+
+.button {
+	color: #EFF5F5;
+	background-color: #2E6B68;
+	border: none;
+	padding: 14px 28px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: #42908D;
+}
+
+.button:active {
+	color: #EFF5F5;
+	background-color: #42908D;
+	box-shadow: 0 3px #666;
+	transform: translateY(3px);
+}
+
+.projects-images {
+	box-shadow: 0 10px 15px #031A1A;
+}
+
+.section-titles {
+	background-color: #DDE8E8;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.cards-titles {
+	border-bottom: 1px solid darkgreen;
+}
+
+.nav-link:hover {
+	color: #DDE8E8;
+}
+
+#landing-section {
+	background-color: #F3F4F4;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23D0F0F4' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23A4C9CA'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#landing-section p {
+	font-size: 1.5em;
+}
+
+#about-section {
+	background-image: url(./images/logos/paper.jpg);
+}
+
+#projects-section, #tools-section, #contact-section {
+	background-color: #F3F4F4;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23D0F0F4' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23A4C9CA'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#tools-3d, #tools-ui, #tools-webdev {
+	border: 2px solid darkgreen;
+	height: 35rem;
+	background-color: #EFF5F5;
+	border-radius: 25px;
+	box-shadow: 0 10px 15px #031A1A;
+}
+
+#projects-3d, #projects-ui {
+	border: 2px solid darkgreen;
+	height: 35rem;
+	background-color: #EFF5F5;
+	border-radius: 10px;
+
+	box-shadow: inset 6px 6px 10px 0 rgba(3, 26, 26, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.7);;
+}
+
+background-color: #EFF5F5;
