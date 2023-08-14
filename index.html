@@ -18,66 +18,73 @@
 		<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@500&family=Tenor+Sans&display=swap" rel="stylesheet">
 		<!-- Google fonts end -->
 
-		<title>Jenny Vee Villaver - Developer Portfolio</title>
+		<title>Jenny Vee Villaver | UI Designer &#38; Full Stack Web Developer</title>
 	</head>
 
-
 	<body>
+
 		<header id="top">
-			<nav class="navbar navbar-expand-lg navbar-dark">
+			<nav class="navbar navbar-expand-lg fixed-top">
 				<div class="container">
-					<a class="navbar-brand py-2" href="#top">
-						<img class="w-25" src="./images/logos/temporary-logo.png" alt="home">
+					<a class="navbar-brand" href="#top">
+						<img class="w-25" src="./images/logos/temporary-logo.png" />
 					</a>
-					<button class="navbar-toggler pl-5" href="#top" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    	<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<div class="navbar-nav ml-auto">
-							<a class="nav-link px-4" href="#about-section">about</a>
-							<a class="nav-link px-4" href="#projects-section">projects</a>
-							<a class="nav-link px-4" href="#tools-section">tools</a>
-							<a class="nav-link px-4" href="#contact-section">contact</a>
-						</div>
+				    	<div class="navbar-nav ml-auto">
+				    		<a class="nav-link px-lg-4" href="#about-section">about</a>
+				      		<a class="nav-link px-lg-4" href="#projects-section">projects</a>
+				     		<a class="nav-link px-lg-4" href="#tools-section">tools</a>
+				      		<a class="nav-link px-lg-4" href="#contact-section">contact</a>
+				     	</div>
 					</div>
 				</div>
 			</nav>
 		</header>
 
-
-		<main>
+		<main class="pt-5">
 
 			<!-- Landing section -->
-			<section class="min-vh-100" id="landing-section">
+			<section class="landing py-5 min-vh-50" id="landing-section">
 				<div class="container">
-					<div>
-						<script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.383/build/spline-viewer.js"></script>
-						<spline-viewer url="https://prod.spline.design/SzsHtavWXsMS2fl2/scene.splinecode"></spline-viewer>
-					</div>
-					<div class="row align-items-end">
-						<div class="col-12 col-md-12 text-center">
-							<h1>Jenny Vee Villaver</h1>
-							<div class="my-3">
-								<h3 class="d-inline">UI Designer</h3>
-								<h3 class="d-inline px-3">|</h3>
-								<h3 class="d-inline">Full Stack Web Developer</h3>
-							</div>
+
+					<div class="row">
+						<div class="col-12">
+							<!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.414/build/spline-viewer.js"></script>
+							<spline-viewer loading-anim url="https://prod.spline.design/tiUGB-SgYPm9GHIP/scene.splinecode"></spline-viewer> -->
+
+							<script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.418/build/spline-viewer.js"></script>
+							<spline-viewer url="https://prod.spline.design/NBhUc2C3SdGyqrml/scene.splinecode"></spline-viewer>
 						</div>
+					</div>
+
+					<!-- <div class="spline-container">
+					    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.414/build/spline-viewer.js"></script>
+					    <spline-viewer loading-anim url="https://prod.spline.design/tiUGB-SgYPm9GHIP/scene.splinecode"></spline-viewer>
+					</div> -->
+
+
+					<div class="py-3 text-center">
+						<h3><span>Jenny</span> Vee Villaver</h3>
+						<h6>Designer & Full Stack Web Developer</h6>
 					</div>
 				</div>
 			</section>
-			<!-- Landing section end -->
+			<!-- Landing section END -->
+
 
 			<!-- About section -->
-			<section class="min-vh-100 py-5" id="about-section">
-				<div class="container">
-					<div class="row align-items-start my-5">
-						<!-- <h2 class="col-12 col-md-12 text-center pt-5">about.</h2> -->
-						<h2 class="col-12 col-md-12 text-center mt-3 mb-5 section-titles py-3 rounded">about.</h2>
-					</div>
-					<div class="d-flex d-inline">
-						<img class="flex-row img-fluid rounded-circle w-25 my-5" src="./images/logos/profile.png" />
-						<div class="col-12 col-md-9 order-md-2 ml-5">
+			<section class="about py-5" id="about-section">
+				<div class="container py-5">
+					<h1 class="text-center pb-3">about<span>.</span></h1>
+					<div class="row">
+						<div class="col-lg-4 mt-4 pt-5 px-3">
+							<img class="img-fluid rounded-circle" src="./images/logos/profile.png" />
+						</div>
+
+						<div class="col-lg-8 pt-5 pl-5">
 							<p>
 							    I am a designer and a full stack web developer in training with a passion for creating immersive digital experiences. My expertise lies in user-centered design, front-end and back-end technologies, allowing me to bring ideas to life through visually stunning and highly functional websites and applications.
 							</p>
@@ -86,26 +93,23 @@
 							</p>
 							<p>
 				            	Additionally, I am fascinated by the Japanese language, anime, and music. I love exploring the rich cultural heritage of Japan and appreciate the artistry and storytelling found in anime. Music also holds a special place in my heart, and I enjoy listening to various genres while working or relaxing.
-							</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- About section end -->
+			<!-- About section END -->
 
 
 
 			<!-- Projects section -->
-			<section class="min-vh-100 py-5" id="projects-section">
-				<div class="container">
-					<h2 class="col-12 col-md-12 text-center my-3 section-titles py-3 rounded">projects.</h2>
+			<section class="projects py-5" id="projects-section">
+				<div class="container py-5">
+					<h1 class="text-center pb-3">projects<span>.</span></h1>
+					<div class="row py-5">
+						<div class="col-lg-4 mb-3">
+							<div class="card">
 
-					<div class="row text-center pt-5">
-						<div class="col-6 col-md-5 mx-auto" id="projects-3d">
-							<div class="text-center">
-								<h5 class="py-4 cards-titles">3D Art</h5>
-							
-								<div id="carouselExampleCaptions" class="carousel slide w-75 mt-5 pt-3 mx-auto" data-ride="carousel">
+								<div id="carouselExampleCaptions" class="carousel slide w-75 my-4 pt-3 mx-auto" data-ride="carousel">
 									<ol class="carousel-indicators">
 										<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 										<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -167,14 +171,17 @@
 										<span class="sr-only">Next</span>
 									</button>
 								</div>
+
+
+								<h4 class="font-weight-bold px-5 pt-2">3D Art</h4>
+								<p class="px-5">A collection of my 3D art projects</p>
 							</div>
 						</div>
 
-						<div class="col-6 col-md-5 offset-md-1 mx-auto" id="projects-ui">
-							<div class="text-center">
-								<h5 class="py-4 cards-titles">UI Design</h5>
-								
-								<div id="carouselCaptions" class="carousel slide w-75 mt-5 pt-3 mx-auto" data-ride="carousel">
+						<div class="col-lg-4 mb-3">
+							<div class="card">
+
+								<div id="carouselCaptions" class="carousel slide w-75 my-4 pt-3 mx-auto" data-ride="carousel">
 									<ol class="carousel-indicators">
 										<li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
 										<li data-target="#carouselCaptions" data-slide-to="1"></li>
@@ -248,132 +255,177 @@
 										<span class="sr-only">Next</span>
 									</button>
 								</div>
-							
+
+								<h4 class="font-weight-bold px-5 pt-2">UI Design</h4>
+								<p class="px-5">A collection of my UI Design projects</p>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card">
+
+								<div id="carouselCaptions" class="carousel slide w-75 my-4 pt-3 mx-auto" data-ride="carousel">
+									<div class="carousel-inner projects-images rounded">
+										<div class="carousel-item active">
+											<a href="https://drive.google.com/file/d/1kqJRFXbkFvzOX2J7rJN6lgs8KlGdzahe/view?usp=sharing" target="_blank">
+												<img src="./images/projects/fidarti.png" class="d-block w-100" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="font-weight-bold px-5 pt-2">Graphic Design</h4>
+								<p class="px-5">Brand development capstone project</p>
 							</div>
 						</div>
 
 					</div>
 				</div>
 			</section>
-			<!-- Projects section end -->
-
+			<!-- Projects section END -->
 
 
 			<!-- Tools section -->
-			<section class="min-vh-100 py-5" id="tools-section">
-				<div class="container">
-					<h2 class="col-12 col-md-12 text-center my-3 section-titles py-3 rounded">tools.</h2>
-					<!-- <div class="row"> -->
+			<section class="tools py-5" id="tools-section">
+				<div class="container py-5">
+					<h1 class="text-center pb-3">tools<span>.</span></h1>
 
+					<div class="row pt-5">
+						<div class="col-12 mb-3">
+							<div class="card text-center py-3">
+								<div class="card-body">
+								
+									<h4 class="font-weight-bold mx-auto">Web Development</h4>
 
-					<div class="row text-center pt-5">
-						<div class="col-6 col-md-3" id="tools-3d">
-							<div class="text-center">
-								<h5 class="py-3 cards-titles">3D Art</h5>
-								<div>
-									<img class="w-50 img-fluid my-5" src="./images/logos/spline.png" title="Spline 3D" alt="spline 3d" />
-									<img class="w-50 img-fluid my-5" src="./images/logos/blender.png" title="Blender 3D" alt="blender 3d" />
+									<div class="row">
+										<div class="col-6 col-lg-3 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/html-5.png" title="HTML" alt="html" />
+										</div>
+										<div class="col-6 col-lg-3 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/css-3.png" title="CSS" alt="css" />
+										</div>
+										<div class="col-6 col-lg-3 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/js.png" title="JavaScript" alt="javascript" />
+										</div>
+										<div class="col-6 col-lg-3 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/react.png" title="React JS" alt="react.js" />
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-6 col-lg-4 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/express.png" title="Express JS" alt="express.js" />
+										</div>
+										<div class="col-6 col-lg-4 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/node.png" title="Node JS" alt="node.js" />
+										</div>
+										<div class="col-12 col-lg-4 mx-auto">
+											<img class="img-fluid my-5" src="./images/logos/git.png" title="Git Version Control" alt="git" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row py-5">
+						<div class="col-lg-4 mb-3">
+							<div class="card text-center py-3">
+								<div class="card-body">
+								
+									<h4 class="font-weight-bold mx-auto">3D Art</h4>
+
+									<!-- <div class="circle">
+									</div> -->
+
+									<img class="col-5 col-lg-12 w-50 img-fluid my-5" src="./images/logos/spline.png" title="Spline 3D" alt="spline 3d" />
+									<img class="col-5 col-lg-12 w-50 img-fluid my-5" src="./images/logos/blender.png" title="Blender 3D" alt="blender 3d" />
+
 								</div>
 							</div>
 						</div>
 
-						<div class="col-6 col-md-3 offset-md-1" id="tools-ui">
-							<div class="text-center">
-								<h5 class="py-3 cards-titles">UI Design</h5>
-								<div>
-									<img class="w-50 img-fluid my-5" src="./images/logos/figma.png" title="Figma" alt="figma" />
-									<img class="w-50 img-fluid my-5" src="./images/logos/invision.png" title="InVision" alt="invision" />
+						<div class="col-lg-4 mb-3">
+							<div class="card text-center py-3">
+								<div class="card-body">
+									
+									<h4 class="font-weight-bold mx-auto">UI Design</h4>
+
+									<img class="col-5 col-lg-12 w-50 img-fluid my-5" src="./images/logos/figma.png" title="Figma" alt="figma" />
+									<img class="col-5 col-lg-12 w-50 img-fluid my-5" src="./images/logos/invision.png" title="InVision" alt="invision" />
+									
 								</div>
 							</div>
 						</div>
 
-						<div class="col-12 col-md-4 offset-md-1" id="tools-webdev">
-							<div class="text-center container">
-								<h5 class="py-3 cards-titles">Web Development</h5>
-								<div class="row">
-									<div class="text-center col-12 col-md-12 my-3">
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/html-5.png" title="HTML" alt="html" />
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/css-3.png" title="CSS" alt="css" />
-									</div>
-									<div class="text-center col-12 col-md-12">
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/js.png" title="JavaScript" alt="javascript" />
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/react.png" title="React JS" alt="react.js" />
-									</div>
-									<div class="text-center col-12 col-md-12 my-3">
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/express.png" title="Express JS" alt="express.js" />
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/node.png" title="Node JS" alt="node.js" />
-									</div>
-									<div class="text-center col-12 col-md-12">
-										<img class="w-50 img-fluid col-md-5" src="./images/logos/git.png" title="Git Version Control" alt="git" />
-									</div>
+						<div class="col-lg-4 mb-3">
+							<div class="card text-center py-3">
+								<div class="card-body">
+
+									<h4 class="font-weight-bold mx-auto">Graphic Design</h4>
+
+									<img class="col-5 col-lg-12 w-50 img-fluid my-5" src="./images/logos/photoshop.png" title="Adobe Photoshop" alt="adobe photoshop" />
+									<img class="col-5 col-lg-12 w-50 img-fluid my-5" src="./images/logos/illustrator.png" title="Adobe Illustrator" alt="adobe illustrator" />
+
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- Tools section end -->
-
+			<!-- Tools section END -->
 
 
 			<!-- Contact section -->
-			<section class="min-vh-100 pt-3 pb-5" id="contact-section">
-				<div class="container">
-					<h2 class="col-12 col-md-12 text-center mt-5 section-titles py-3 rounded">contact.</h2>
+			<section class="contact pt-5" id="contact-section">
+				<div class="container pt-5">
+					<h1 class="text-center pb-3">contact<span>.</span></h1>
 
-					<div class="row pt-5">
-						<div class="col-12 order-1 col-md-6 order-md-1">
-							<div class="col-9 text-center mb-5">
-								<h3>Get in touch with me via social media or email.</h3>
-							</div>
-							<div class="col-9 text-center">
-								<!-- <img class="width-150 img-fluid" src="./images/logos/twitter.png" alt="twitter" /> -->
+					<div class="row py-5">
+
+						<div class="col-lg-5 mx-auto">
+							<h6>Get in touch with me via social media or email.</h6>
+
+							<div class="py-5 my-5">
 								<a href="https://www.linkedin.com/in/jennyveevillaver/" target="_blank">
-									<img class="w-25 img-fluid m-4" src="./images/logos/linkedin.png" alt="linkedin" />
+									<img class="img-fluid w-25 mx-5" src="./images/logos/linkedin.png" alt="linkedin" />
 								</a>
-								<!-- <img class="width-150 img-fluid" src="./images/logos/facebook.png" alt="facebook" /> -->
+
 								<a href="https://www.instagram.com/mayfeille/" target="_blank">
-									<img class="w-25 img-fluid m-4" src="./images/logos/instagram.png" alt="instagram" />
+									<img class="img-fluid w-25 mx-5" src="./images/logos/instagram.png" alt="instagram" />
 								</a>
 							</div>
 						</div>
 
-						<div class="col-12 order-2 col-md-6 order-md-2">
+
+						<div class="col-lg-6 mx-auto">
+
 							<form>
 								<div class="form-group">
-									<label for="exampleInputEmail1">Name</label>
-									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+									<label for="InputEmail1">Name</label>
+									<input type="text" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
 								</div>
 								<div class="form-group py-3">
-									<label for="exampleInputEmail1">Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+									<label for="InputEmail1">Email address</label>
+									<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
 								</div>
 								<div class="form-group">
-									<label for="exampleInputEmail1">Message</label>
-									<textarea type="text" class="form-control" name="form-control" id="exampleInputEmail1" cols="30" rows="10" minlength="5" maxlength="300" required></textarea>
+									<label for="InputEmail1">Message</label>
+									<textarea type="text" class="form-control" name="form-control" id="InputEmail1" cols="30" rows="10" minlength="5" maxlength="300" required></textarea>
 								</div>
 								<button type="submit" class="button">Send Email</button>
 							</form>
+
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- Contact section end -->
-
-
-			<!-- Back to top button -->
-
-			<a id="back-to-top" href="#top" class="btn btn-dark btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-
-			<!-- Back to top button end -->
+			<!-- Contact section END -->
 
 		</main>
 
-
-		<footer class="p-3" id="footer-section">
-			<div class="container text-center pt-3">
-				<p>© 2023 Jenny Vee Villaver</p>
-			</div>
+		<footer class="pt-4 pb-1 text-center">
+			<p>© 2023 Jenny Vee Villaver</p>
 		</footer>
 
 
