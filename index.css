@@ -21,13 +21,14 @@ html {
 	font-weight: 400;
 	cursor: pointer;
 	text-decoration: none;
+	border-bottom: 2px solid #F8F9FA;
 }
 
 .nav-link:hover {
 	color: #0C2D2D;
 	background-color: #F1F1F1;
 	font-weight: bold;
-	border-bottom: 3px solid #1B9AAA;
+	border-bottom: 2px solid #1B9AAA;
 	border-radius: 2px 15px 2px 15px;
 }
 
